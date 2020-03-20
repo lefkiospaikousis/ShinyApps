@@ -1,0 +1,13 @@
+name: download_ggplots_module
+title: download_ggplots_module
+username:
+account: lefkios-paikousis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1971026
+bundleId: 2902198
+url: https://lefkios-paikousis.shinyapps.io/download_ggplots_module/
+when: 1584716583.6611
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: README.MD
