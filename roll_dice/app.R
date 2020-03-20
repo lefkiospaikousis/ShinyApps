@@ -8,8 +8,13 @@ library(ggplot2)
 
 ui <- fluidPage(
 
-    titlePanel("Roll your dice"),
-
+    titlePanel("Dice result simulator"),
+    "This app simulates the result of rolling a number of dice.",
+    p("You may select the number of throws and view the distribution of the results in the graph"),
+    p("Once you have selected the number of throws and/or the number of dice, hit the", code("Rerun"), "button",
+    "to see how the distribution of results changes"),
+    p("The code for the app can be found in my", a(href="https://github.com/lefkiospaikousis/ShinyApps", "Github page")),
+    
     sidebarLayout(
         sidebarPanel(
             sliderInput("rolls",

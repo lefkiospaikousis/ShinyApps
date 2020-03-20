@@ -5,6 +5,6 @@ account: lefkios-paikousis
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1631437
-bundleId: 2710403
+bundleId: 2711995
 url: https://lefkios-paikousis.shinyapps.io/roll_dice/
-when: 1578346189.53244
+when: 1578407256.76105
