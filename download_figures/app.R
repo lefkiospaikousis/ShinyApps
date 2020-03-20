@@ -62,13 +62,14 @@ ui <- fluidPage(
                br(),
                p("With Shiny modules, the idea is to write up ONE module that creates a button and an associated 
                handler, and use this module to render a button to each plot I had"),
-               p("As an added benefit of this `function` style module, I can declate the button label
-                 and file name to be used when saving"),
+               p("As an added benefit of this `function` style module, I can declare the button label
+                 and file name to be used when saving (see the button labels"),
                br(),
                p("The first plot (Histogram) is using a separate button and handler, while the other two
                use the modularised technique"),
-               p("See the code in ", )
-               ),
+               p("See the code in my", 
+                 a(href = "https://github.com/lefkiospaikousis/ShinyApps/tree/master/download_figures", "github page"))
+              ),
         
         column(10,
                p("A bunch of plots here"),
